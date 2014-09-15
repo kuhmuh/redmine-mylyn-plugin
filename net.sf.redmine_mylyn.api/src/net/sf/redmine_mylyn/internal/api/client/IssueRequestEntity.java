@@ -155,7 +155,7 @@ public class IssueRequestEntity extends StringRequestEntity {
 	}
 	
 	private static void writeValue(JSONWriter jsonWriter, String key, String value) throws JSONException {
-		jsonWriter.key(key).value(value==null ? "" : value); //$NON-NLS-1$
+		jsonWriter.key(key).value(value==null ? "" : value.replaceAll("\\n", "\r\n")); //$NON-NLS-1$
 	}
 	
 }

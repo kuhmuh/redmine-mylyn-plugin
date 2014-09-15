@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import net.sf.redmine_mylyn.api.client.IRedmineApiErrorCollector;
 import net.sf.redmine_mylyn.api.client.IRedmineApiWebHelper;
@@ -78,7 +80,7 @@ public class Api_2_7_ClientImpl extends AbstractClient {
 	private final static String URL_ISSUE = "/mylyn/issue/%d"; //$NON-NLS-1$
 	private final static String URL_QUERY = "/mylyn/issues"; //$NON-NLS-1$
 
-	private final static String URL_UPDATE_ISSUE = "/issues/%d.xml"; //$NON-NLS-1$
+	private final static String URL_UPDATE_ISSUE = "/issues/%d.json"; //$NON-NLS-1$
 	
 	private final static String URL_GET_ATTACHMENT = "/mylyn/attachment/%d/%s"; //$NON-NLS-1$
 
