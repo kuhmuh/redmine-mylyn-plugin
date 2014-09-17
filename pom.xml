@@ -20,7 +20,6 @@
     <module>net.sf.redmine_mylyn.ui</module>
     <module>net.sf.redmine_mylyn.feature</module>
     <module>net.sf.redmine_mylyn.p2repository</module>
-    <module>../com.vjoon.redmine_mylyn.extensions</module>
   </modules>
 
   <properties>
