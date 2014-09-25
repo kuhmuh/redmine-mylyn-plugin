@@ -79,7 +79,7 @@ public class Api_2_7_ClientImpl extends AbstractClient {
 	private final static String URL_ISSUE = "/mylyn/issue/%d"; //$NON-NLS-1$
 	private final static String URL_QUERY = "/mylyn/issues"; //$NON-NLS-1$
 
-	private final static String URL_UPDATE_ISSUE = "/issues/%d.json"; //$NON-NLS-1$
+	private final static String URL_UPDATE_ISSUE = "/issues/%d.xml"; //$NON-NLS-1$
 
 	private final static String URL_GET_ATTACHMENT = "/mylyn/attachment/%d/%s"; //$NON-NLS-1$
 
