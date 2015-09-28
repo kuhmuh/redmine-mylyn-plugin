@@ -6,7 +6,7 @@
 	
 	<parent>
 		<groupId>net.sf.redmine_mylyn</groupId>
-		<version>${project.version}</version>
+		<version>0.4.1-SNAPSHOT</version>
 		<artifactId>net.sf.redmine_mylyn.parent</artifactId>
 	</parent>
 	
